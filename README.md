@@ -36,6 +36,49 @@ git clone https://github.com/your-username/lms_backend.git
 cd lms_backend
 ```
 
+### 2️⃣ Create and Activate Virtual Environment
+On Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run Migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 5️⃣ Create Superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+### 6️⃣ Run the Server
+
+```bash
+python manage.py runserver
+```
+Visit http://127.0.0.1:8000/
+Swagger UI: http://127.0.0.1:8000/swagger/
+
+## 🔐 API Authentication
+
+This project uses JWT for authentication.
+
+- Obtain token: /api/token/
+
+- Refresh token: /api/token/refresh/
+
+
 ### 📌 Project Structure
 ```lms_backend/
 ├── manage.py
