@@ -36,11 +36,11 @@ git clone https://github.com/your-username/lms_backend.git
 cd lms_backend
 
 ### 📌 Project Structure
-lms_backend/
+```lms_backend/
 ├── manage.py
 ├── lms_backend/ # Project settings
 ├── core/ # LMS app (models, views, serializers, urls)
 ├── users/ # LMS app (models, views, serializers, urls)
 ├── requirements.txt
 ├── ...
-
+```
