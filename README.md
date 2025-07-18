@@ -31,9 +31,10 @@ A robust backend for a **Learning Management System (LMS)** built with **Python*
 
 ### 1️⃣ Clone the Repository
 
-bash
+```bash
 git clone https://github.com/your-username/lms_backend.git
 cd lms_backend
+```
 
 ### 📌 Project Structure
 ```lms_backend/
